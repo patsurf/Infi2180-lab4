@@ -63,7 +63,6 @@ $superheroes = [
   ], 
 ];
 
-
     if (isset($_POST['query'])) {
         $found_key = array_search($_POST['query'], array_column($superheroes, 'name'));
         if($found_key!==false ){
